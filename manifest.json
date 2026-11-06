@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Work Autofill",
+  "version": "1.0",
+  "description": "Adds a FILL button that fills the work form.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.findhelp.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
